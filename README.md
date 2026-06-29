@@ -45,6 +45,8 @@
 
 ## Overview
 
+> **🎥 System Demonstration Video:** [Watch on Google Drive](https://drive.google.com/file/d/1UevbJu37hguGYBoKWQwyH6ImwLKadNzi/view?usp=sharing)
+
 A **production-grade, dual-MCU embedded telemetry system** built entirely from scratch — **zero HAL libraries, zero third-party RTOS, zero MQTT client libraries**. The system acquires environmental sensor data (temperature, pressure, altitude) on an STM32F446RE, processes it through a multi-stage DSP filter pipeline, and transmits the filtered data over SPI to an ESP32, which bridges it to the cloud via MQTT and provides SMS alerting capabilities.
 
 ### Key Highlights
